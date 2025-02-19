@@ -43,6 +43,7 @@ console.log(a >= b) // Mayor o igual que
 console.log(a <= b) // Menor o igual que
 console.log(a == b) // Igualdad por valor
 console.log(a == 6)
+console.log("HOla")
 console.log(a == "6")
 console.log(a == a)
 console.log(a === a) // Igualdad por identidad (por tipo y valor) o igualdad estricta

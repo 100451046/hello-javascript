@@ -15,6 +15,11 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=4733
 
 // 6. A continuación, modifica los valores de las variables por otros del mismo tipo
 
+let valor = 3
+console.log(valor + typeof valor)
+valor = "hola"
+console.log(valor + typeof valor)
+
 // 7. A continuación, modifica los valores de las variables por otros de distinto tipo
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos

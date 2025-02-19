@@ -37,7 +37,7 @@ myArray2 = new Array(3)
 myArray2[2] = "Brais"
 // myArray2[0] = "Moure"
 myArray2[1] = "mouredev"
-myArray2[4] = "mouredev"
+myArray2[4] = "mouredev" //se sobredimensiona solo, aunque haya 3 espacios reservados de primeras
 
 console.log(myArray2)
 
@@ -88,17 +88,17 @@ console.log(myArray)
 
 myArray = ["Brais", "Moure", "mouredev", 37, true]
 
-let myNewArray = myArray.slice(1, 3)
+let myNewArray = myArray.slice(1, 3) //Escoge los elementos desde el primer index hasta el segundo (no incluido)
 
 console.log(myArray)
 console.log(myNewArray)
 
 // splice
 
-myArray.splice(1, 3)
+myArray.splice(1, 3) //Elimina los elementos desde el primer index, el numero de eliminados es el segundo indice
 console.log(myArray)
 
 myArray = ["Brais", "Moure", "mouredev", 37, true]
 
-myArray.splice(1, 2, "Nueva entrada")
+myArray.splice(1, 2, "Nueva entrada") //El 3 campo se introduce en el hueco del último elemento eliminado
 console.log(myArray)
