@@ -7,7 +7,8 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=21480
 
 import { add, PI, name, Circle } from "./28-export-modules.js"
 
-import defaultImport from "./28-export-modules.js"
+import defaultImport from "./28-export-modules.js" //importa las que tienen marcadas "export default en el archivo indicado. Solo puede
+                                                   //  ser un única cosa"
 
 // Funciones
 
