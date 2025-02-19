@@ -122,7 +122,7 @@ class GetSetPerson {
 
 }
 
-person6 = new GetSetPerson("Brais", 37, "MoureDev", "IBAN123456789")
+let person6 = new GetSetPerson("Brais", 37, "MoureDev", "IBAN123456789")
 
 console.log(person6)
 console.log(person6.name)
@@ -181,7 +181,7 @@ let myFish = new Fish("MoureFish", 10)
 myFish.swim()
 myFish.sound()
 
-// Métodos estáticos
+// Métodos estáticos. Se puede hacer uso de ese metodo sin tener que crear el objeto/instancia
 
 class MathOperations {
 
